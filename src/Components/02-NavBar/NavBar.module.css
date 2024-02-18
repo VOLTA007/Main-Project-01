@@ -1,0 +1,78 @@
+.div1{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    position: relative;
+    margin: 32px auto 0;
+    width: 470px;
+    height: 56px;
+    background: hsl(0, 0%, 0%);
+    border-radius: 80px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 55px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+nav .animation {
+    position: absolute;
+    height: 5px;
+    top: 55px;
+    z-index: 0;
+    background: hsl(0, 0%, 100%);
+    border-radius: 80px;
+    transition: all 0.5s ease;
+    transform: translateY(0);
+  }
+  
+  nav a:hover~.animation {
+    height: 80%;
+    top: 5px;
+    transform: translateY(0);
+  }
+
+nav a:nth-child(1):hover~.animation{
+    color: black;
+    width: 110px;
+    left: 6px;
+}
+
+nav a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 120px;
+}
+
+nav a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 245px;
+}
+
+nav a:nth-child(4):hover~.animation{
+    width: 110px;
+    left: 355px;
+}
+
+a:hover{
+    font-weight: 600;
+    color: black;
+    transition: color 1s;
+}
+
+a:nth-child(1){
+    left: 0px;
+}
+a:nth-child(4){
+    left: 0px;
+}

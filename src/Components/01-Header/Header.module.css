@@ -1,0 +1,40 @@
+.logo{
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    margin-left: -130px;
+}
+
+.hed{
+    font-size: 160px;
+    text-align: left;
+}
+
+.button1{
+    margin-top: 380px;
+    margin-left: -80px;
+    width: 200px;
+    height: 82px;
+    white-space: nowrap;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 80px;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Muli', sans-serif;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+    white-space: wrap;
+    text-align: left;
+    margin-top: -100px;
+    margin-left: -80px;
+}
