@@ -12,9 +12,10 @@ function Header(){
             Branding</h1>
             <button className={styles.button1}>SCROLL DOWN ⇩</button>
         </div>
-            <div className={styles.div3}>
-            <p>Let's Talk <br></br>
-            hello@joey.co</p>
+        <div className={styles.div3}>
+            <p>Let's Talk <br></br>hello@joey.co</p>
+        </div>
+        <div className={styles.div4}>
             <p>Hello. I'm Joey. an online product designer focusing<br></br> on brand identity, advertising, and no-code <br></br> instruments.</p>
         </div>
         </>

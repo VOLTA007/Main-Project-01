@@ -2,17 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 nav{
     position: relative;
+    width: calc(100vw); 
+    max-width: 470px; 
+    margin: 0 auto;
     margin-top: 32px;
-    width: 81vh;
-    height: auto;
     background: hsl(0, 0%, 0%);
     border-radius: 80px;
-    font-size: 0;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -41,23 +40,24 @@ nav a{
 }
 
 .hovered1{
-    left: 8px;
+    left: 2%;
+    width: 21%;
     display: block;
 }
 
 .hovered2{
-    left: 125px;
+    left: 22.2%;
     display: block;
 }
 
 .hovered3{
-    left: 245px;
+    left: 47%;
     display: block;
 }
 
 .hovered4{
-    width: 105px;
-    left: 358px;
+    left: 75%;
+    width: 24%;
     display: block;
 }
  
@@ -65,7 +65,7 @@ nav a{
 a:hover{
     font-weight: 600;
     color: black;
-    transition: color 1s;
+    transition: color 0.3s;
 }
 
 
