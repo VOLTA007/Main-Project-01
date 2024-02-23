@@ -9,8 +9,7 @@ function Header(){
         <img className={styles.logo} src="./Logo.png" alt=''></img>
         <NavBar />
         <div className={styles.div2}>
-            <h1 className={styles.hed}>Websites&<br></br>
-            Branding</h1>
+            <h1 className={styles.hed}>Websites&<br></br>Branding</h1>
             <button className={styles.button1}>SCROLL DOWN ⇩</button>
         </div>
         <div className={styles.div3}>
