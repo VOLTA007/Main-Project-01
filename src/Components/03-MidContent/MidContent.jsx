@@ -14,7 +14,7 @@ function MidContent(){
                 </p>
             </div>
             <div className={styles.gridcontainer}>
-                <img className={styles.imggrid} src="./card 1.png" alt="Card 1" />
+                <img className={styles.imggrid} src="./Card 1.png" alt="Card 1" />
                 <img className={styles.imggrid} src="./Card 2.png" alt="Card 2" />
                 <h3>Crtly</h3>
                 <h3>Tanasto</h3>
