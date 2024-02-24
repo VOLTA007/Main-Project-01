@@ -19,11 +19,15 @@ function MidContent(){
                 <h3>Crtly</h3>
                 <h3>Tanasto</h3>
                 <p className={styles.ppp}>Mobile App</p>
-                <p className={styles.ppp}>Web Design clas</p>
+                <p className={styles.ppp}>Web Design</p>
             </div>
             <div className={styles.gridcontainer2}>
                 <img className={styles.imggrid} src="./Card 3.png" alt="Card 3" />
                 <img className={styles.imggrid} src="./Card 4.png" alt="Card 4" />
+                <h3>Senta</h3>
+                <h3>Crint</h3>
+                <p className={styles.ppp}>Mobile App & Branding</p>
+                <p className={styles.ppp}>Mobile App</p>
             </div>
         </>
     );

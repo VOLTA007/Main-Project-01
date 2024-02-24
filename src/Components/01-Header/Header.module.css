@@ -37,16 +37,15 @@
 
 .div3{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1.5fr 1fr;
+    margin: 0 30px;
 }
 
 .p1{
-    grid-column: span 2;
+    grid-column: span 1;
+    justify-self: start;
 }
 
-.p2{
-    grid-column: span 2;
-}
 
 
 
