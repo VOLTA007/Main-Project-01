@@ -24,51 +24,67 @@ nav a{
     text-decoration: none;
     line-height: 55px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     display: inline-block;
     text-align: center;
 }
-.animation {
-    position: absolute;
-    width: 100px;
-    top: 8px;
-    height: 40px;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 80px;
-    transition: all 0.5s ease;
-    display: none;
-}
-
-.hovered1{
-    left: 2%;
-    width: 21%;
-    display: block;
-}
-
-.hovered2{
-    left: 24.7%;
-    width: 25%;
-    display: block;
-}
-
-.hovered3{
-    left: 53.5%;
-    width: 18%;
-    display: block;
-}
-
-.hovered4{
-    left: 76%;
-    width: 22.5%;
-    display: block;
-}
- 
 
 a:hover{
     font-weight: 600;
     color: black;
     transition: color 0.3s;
 }
+
+.focused {
+    color: rgb(68, 5, 228);
+  }
+
+.animation {
+    position: absolute;
+    width: 0px;
+    top: 8px;
+    height: 0px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 80px;
+    transition: all 0.5s ease;
+    display: block;
+    visibility: hidden;
+}
+
+.hovered1{
+    width: 21%;
+    display: block;
+    visibility: visible;
+    height: 40px;
+    transition: all 0.5s ease;
+}
+
+
+.hovered2{
+    width: 25%;
+    visibility: visible;
+    height: 40px;
+    display: block;
+}
+
+.hovered3{
+    width: 18%;
+    display: block;
+    visibility: visible;
+    height: 40px;
+    transition: all 0.5s ease;
+}
+
+.hovered4{
+    width: 22.5%;
+    display: block;
+    visibility: visible;
+    height: 40px;
+    transition: all 0.5s ease;
+}
+ 
+
+
 
 
 
